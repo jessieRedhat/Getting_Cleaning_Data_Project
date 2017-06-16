@@ -14,7 +14,7 @@ It is the Getting and Cleaning Data Course Project which is required to be publi
 
 Other files in the repo:
 1- *codebook.md*: which is the relative code book;
-2- *tidyDS.csv* which is the required tidy data set in csv format;
+2- *tidyDS.txt* which is the required tidy data set in `txt` format;
 3- *run_analysis.R* which is the R code file for this project. 
  
 --- 

@@ -232,5 +232,5 @@ Aver_sa <- summarise(SubAct, ave(c(3:ncol(SubAct))))
 
 
 tidyDS <- ExtracedDS %>% group_by(subject,Activity) %>% summarise_each(funs(mean))
-write.csv(tidyDS,"./tidyDS.csv")
+write.table(tidyDS,"./tidyDS.txt",row.names = F)
  

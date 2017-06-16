@@ -1,6 +1,21 @@
 # Codebook
 
-This code book summarizes the resulting data fields in tidy.txt.
+### A summary of steps to extract output:
+
+1. download the zip file for given url, and unzip the file in the Project folder
+2. Loading activity in ActN, and all 561 features in F561
+3. load Training data set and assign traspose of F561 as its header
+4. Load 9 files of training of body_... and total_..., assign approprate column names to them in for loop
+5. merge all of them as `TrainingPart` 
+6. apply steps 3 to 5 for test data set, merge them to make `TestPart`
+7. Combine `TrainingPart` and `TestPart` in `LargeDS`
+8. Using regular expressions, extracts the measurements with `mean` and `std` in their fields 
+9. Finally summarise to obtain the mean of each column when grouped by `Activity` and  `Subject`
+10. store the final tidy data set on hard drive
+ 
+ 
+
+### Vectors
 
 ## Identifiers
 

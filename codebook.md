@@ -64,33 +64,58 @@ fBodyAccJerk-meanFreq()-Z
 fBodyGyro-mean()-X
 fBodyGyro-mean()-Y
 fBodyGyro-mean()-Z
+
 fBodyGyro-std()-X
+
 fBodyGyro-std()-Y
+
 fBodyGyro-std()-Z
+
 fBodyGyro-meanFreq()-X
+
 fBodyGyro-meanFreq()-Y
+
 fBodyGyro-meanFreq()-Z
+
 fBodyAccMag-mean()
+
 fBodyAccMag-std()
+
 fBodyAccMag-meanFreq()
+
 fBodyBodyAccJerkMag-mean()
+
 fBodyBodyAccJerkMag-std()
+
 fBodyBodyAccJerkMag-meanFreq()
+
 fBodyBodyGyroMag-mean()
+
 fBodyBodyGyroMag-std()
+
 fBodyBodyGyroMag-meanFreq()
+
 fBodyBodyGyroJerkMag-mean()
+
 fBodyBodyGyroJerkMag-std()
+
 fBodyBodyGyroJerkMag-meanFreq()
+
 angle(tBodyAccMean,gravity)
+
 angle(tBodyAccJerkMean),gravityMean)
+
 angle(tBodyGyroMean,gravityMean)
+
 angle(tBodyGyroJerkMean,gravityMean)
+
 angle(X,gravityMean)
+
 angle(Y,gravityMean)
+
 angle(Z,gravityMean)
 
-##Activity Labels
+## Activity Labels
 
 * WALKING (value 1): subject was walking during the test
 * WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
